@@ -18,19 +18,19 @@ function App() {
     //     <Cards />
     //   </div>
     // </Fragment>
-    // <Routes>
-    //   <Route path="/" element={<div className="flex-column p-3 ">
-        // <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
-        // {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
+    <Routes>
+      <Route path="pwa/" element={<div className="flex-column p-3 ">
+        <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
+        {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
         <Videosbereich/>
-    //   </div>
-    //   } />
-    //   <Route path="/Anmelden" element={<Anmelden/>}/>
-    //   <Route path="/Registrieren" element={<Registrieren/>}/>
+       </div>
+      } />
+      <Route path="/Anmelden" element={<Anmelden/>}/>
+      <Route path="/Registrieren" element={<Registrieren/>}/>
 
 
 
-    //   </Routes>
+    </Routes>
   );
 }
 export default App;  
