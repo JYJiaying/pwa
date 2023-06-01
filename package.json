@@ -1,6 +1,6 @@
 {
   "name": "pwa-react-typescript",
-  "homepage": "https://JYJiaying.github.io/pwa/",
+  "homepage": "https://JYJiaying.github.io/pwa/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
