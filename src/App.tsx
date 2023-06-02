@@ -19,7 +19,7 @@ function App() {
     //   </div>
     // </Fragment>
     <Routes>
-      <Route path="./pwa/" element={<div className="flex-column p-3 ">
+      <Route path="/pwa/" element={<div className="flex-column p-3 ">
         <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
         {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
         <Videosbereich/>
