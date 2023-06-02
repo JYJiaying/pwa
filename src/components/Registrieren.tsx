@@ -11,8 +11,8 @@ function Registrieren() {
                 <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
-                    <a href="./Anmelden" className="btn btn-primary " aria-current="page">Anmelden</a>
-                    <a href="./Registrieren" className="btn btn-primary active">Jetzt Registrieren</a>
+                    <a href="./Anmelden/" className="btn btn-primary " aria-current="page">Anmelden</a>
+                    <a href="./Registrieren/" className="btn btn-primary active">Jetzt Registrieren</a>
                 </div>
                 <div className="mb-4">
                     <label className="form-label">Als welche Rolle sind Sie bei mediMESH?</label>
