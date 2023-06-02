@@ -11,7 +11,7 @@ function Anmelden() {
                 <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
-                    <a href="./pwa/Anmelden/" className="btn btn-primary active" aria-current="page">Anmelden</a>
+                    <a href="./Anmelden/" className="btn btn-primary active" aria-current="page">Anmelden</a>
                     <a href="./Registrieren/" className="btn btn-primary">Jetzt Registrieren</a>
                 </div>
                 <form className=" gt-3 ">

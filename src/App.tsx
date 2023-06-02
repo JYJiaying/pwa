@@ -25,7 +25,7 @@ function App() {
         <Videosbereich/>
        </div>
       } />
-      <Route path="./pwa/Anmelden/" element={<Anmelden/>}/>
+      <Route path="./Anmelden/" element={<Anmelden/>}/>
       <Route path="./Registrieren/" element={<Registrieren/>}/>
 
 
