@@ -14,9 +14,10 @@ function App() {
         <Route path="/pwa/" element={<div className="flex-column p-3 ">
           <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
-          <Videosbereich /> </div>}/>
-        <Route path="./Anmelden/" element={<Anmelden/>} />
-        <Route path="./Registrieren/" element={<Registrieren/>} />
+          <Videosbereich /> </div>}>
+        <Route path="Anmelden/" element={<Anmelden/>} />
+        <Route path="Registrieren/" element={<Registrieren/>} />
+        </Route>
       </Routes>
   );
 }
