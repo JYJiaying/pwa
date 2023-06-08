@@ -15,16 +15,15 @@ function Registrieren() {
                     <a href="./Registrieren/" className="btn btn-primary active">Jetzt Registrieren</a>
                 </div>
                 <div className="mb-4">
-                    <label className="form-label">Als welche Rolle sind Sie bei mediMESH?</label>
+                    <label className="form-label">Welche Rolle haben Sie bei mediMESH?</label>
                     <select className="form-select" aria-label="Default select example">
-                        <option selected>Wählen Sie Ihre Rolle hier </option>
+                        <option selected>Wählen Sie Ihre Rolle aus</option>
                         <option value="1">User</option>
                         <option value="2">Staff</option>
-                        <option value="3">Content-Creater</option>
+                        <option value="3">Content-Creator</option>
                         <option value="4">Moderator</option>
-                        <option value="5">Consent-Mamager</option>
+                        <option value="5">Consent-Manager</option>
                         <option value="6">Admin</option>
-
                     </select>
                 </div>
                 <form className=" gt-3 ">

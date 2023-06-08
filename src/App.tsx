@@ -10,22 +10,14 @@ function App() {
   const [togglerVisible, setTogglerVisibility] = useState(false);
 
   return (
-    // <Fragment>
-
-    //   <div className="flex-column">
-    //     <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
-    //     {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
-    //     <Cards />
-    //   </div>
-    // </Fragment>
     <Routes>
-      <Route path="/pwa/" element={<div className="flex-column p-3 ">
+      <Route path="https://JYJiaying.github.io/pwa" element={<div className="flex-column p-3 ">
         <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
         {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
         <Videosbereich/>
        </div>
       } />
-      <Route path="/pwa/Anmelden/" element={<Anmelden/>}/>
+      <Route path="https://JYJiaying.github.io/pwa/Anmelden" element={<Anmelden/>}/>
       <Route path="./Registrieren/" element={<Registrieren/>}/>
 
 
