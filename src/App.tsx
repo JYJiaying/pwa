@@ -16,8 +16,8 @@ function App() {
           <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
           <Videosbereich /> </div>}/>
-        <Route path="/pwa/Anmelden/" element={<Anmelden/>} />
-        <Route path="/pwa/Registrieren/" element={<Registrieren/>} />
+        <Route path="/pwa/anmelden/" element={<Anmelden/>} />
+        <Route path="/pwa/registrieren/" element={<Registrieren/>} />
         
       </Routes>
     </HashRouter>

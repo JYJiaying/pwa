@@ -1,7 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { Routes, Route, HashRouter } from 'react-router-dom'
-
+import { Routes, Route } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import './index.css'
@@ -11,9 +10,9 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   // <React.StrictMode>
-  <HashRouter>
+  <Routes>
   <App/>
-</HashRouter>
+</Routes>
 
   // </React.StrictMode>,
 )
