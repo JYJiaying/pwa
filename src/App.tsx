@@ -10,18 +10,14 @@ function App() {
   const [togglerVisible, setTogglerVisibility] = useState(false);
 
   return (
-    <div>
       <Routes>
-        <Route path="./pwa/" element={<div className="flex-column p-3 ">
+        <Route path="/pwa/" element={<div className="flex-column p-3 ">
           <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
-          <Videosbereich /> </div>} />
-
-        <Route path="./Anmelden/" element={<Anmelden />} />
-        <Route path="./Registrieren/" element={<Registrieren />} />
-        
+          <Videosbereich /> </div>}/>
+        <Route path="./Anmelden/" element={<Anmelden/>} />
+        <Route path="./Registrieren/" element={<Registrieren/>} />
       </Routes>
-    </div>
   );
 }
 export default App;  
