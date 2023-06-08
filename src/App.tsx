@@ -12,12 +12,12 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="https://JYJiaying.github.io/pwa/" element={<div className="flex-column p-3 ">
+        <Route path="/pwa/" element={<div className="flex-column p-3 ">
           <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
           <Videosbereich /> </div>} >
 
-        <Route path="https://JYJiaying.github.io/pwa/Anmelden" element={<Anmelden />} />
+        <Route path="/pwa/Anmelden" element={<Anmelden />} />
         <Route path="https://JYJiaying.github.io/pwa//Registrieren" element={<Registrieren />} />
         </Route>
       </Routes>
