@@ -14,8 +14,8 @@ function Anmelden() {
                 <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
-                    <a href="/pwa/anmelden/" onClick={()=> navigate("/pwa/anmelden/")} className="btn btn-primary active" aria-current="page">Anmelden</a>
-                    <a href="/pwa/registrieren/" className="btn btn-primary">Jetzt Registrieren</a>
+                    <a href="/pwa/anmelden" onClick={()=> navigate("/pwa/anmelden")} className="btn btn-primary active" aria-current="page">Anmelden</a>
+                    <a href="/pwa/registrieren" className="btn btn-primary">Jetzt Registrieren</a>
                 </div>
                 <form className=" gt-3 ">
                     <div className="mb-3 ">
@@ -31,7 +31,7 @@ function Anmelden() {
                     <button type="submit" className="btn btn-primary">Anmelden</button>
                     
                 </form>
-                <a className="navbar-brand mt-5" href="./PasswordErsetzen/">Password vergessen?</a>
+                <a className="navbar-brand mt-5" href="./PasswordErsetzen">Password vergessen?</a>
             </div>
         </Fragment>
     );

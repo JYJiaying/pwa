@@ -7,7 +7,7 @@ function Navbar({click}: NavbarProps) {
         <Fragment>
             
             <nav className="navbar bg-body-tertiary fixed-top p-2 " tabIndex={0} >
-                <a className="navbar-brand" href="/pwa/">mediMESH</a>
+                <a className="navbar-brand" href="/pwa">mediMESH</a>
                 <button className="btn"
                 type="button"
                 onClick={click}>
