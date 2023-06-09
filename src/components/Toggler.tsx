@@ -15,7 +15,7 @@ function Toggler({click}:TogglerProps) {
                     </div>
 
                         <nav className="nav flex-column p-2 m-2">
-                            <a className="nav-link btn-primary" href="/pwa/anmelden/">Anmelden</a>
+                            <a className="nav-link btn-primary" href="/pwa/anmelden">Anmelden</a>
                             <a className="nav-link btn-primary" href="/">Einstellungen</a>
                         </nav>
                     
