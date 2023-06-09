@@ -1,7 +1,10 @@
+import { Routes, Route, HashRouter, useNavigate} from 'react-router-dom'
 interface TogglerProps{
     click:() => void;
 }
 function Toggler({click}:TogglerProps) {
+  const navigate = useNavigate();
+
     return (
         <nav className="navbar bg-body-tertiary fixed-top">
 
@@ -15,7 +18,7 @@ function Toggler({click}:TogglerProps) {
                     </div>
 
                         <nav className="nav flex-column p-2 m-2">
-                            <a className="nav-link btn-primary" href="/pwa/anmelden">Anmelden</a>
+                            <a className="nav-link btn-primary" href="/pwa/anmelden" onClick={()=> navigate("/pwa/anmelden")}>Anmelden</a>
                             <a className="nav-link btn-primary" href="/">Einstellungen</a>
                         </nav>
                     

@@ -10,14 +10,14 @@ function App() {
   const [togglerVisible, setTogglerVisibility] = useState(false);
 
   return (
-      <HashRouter>
-        <Route path='/pwa/' element={<div className="flex-column p-3 ">
+      <Routes>
+        <Route path="/pwa" element={<div className="flex-column p-3 ">
           <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
           <Videosbereich /> </div>}/>
-        <Route path='/pwa/anmelden' element={<Anmelden/>} />
-        <Route path='/pwa/registrieren' element={<Registrieren/>} />
-      </HashRouter>
+        <Route path="/pwa/anmelden" element={<Anmelden/>} />
+        <Route path="/pwa/registrieren" element={<Registrieren/>} />
+      </Routes>
       
   );
 }
