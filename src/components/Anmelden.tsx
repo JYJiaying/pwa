@@ -1,9 +1,12 @@
+import { Routes, Route, HashRouter, useNavigate} from 'react-router-dom'
 import { Fragment } from "react";
 import { useState } from 'react';
 import Navbar from "./Navbar";
 import Toggler from "./Toggler";
 function Anmelden() {
     const [togglerVisible, setTogglerVisibility] = useState(false);
+  const navigate = useNavigate();
+
 
     return (
         <Fragment>
@@ -11,7 +14,7 @@ function Anmelden() {
                 <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
-                    <a href="/pwa/anmelden/" className="btn btn-primary active" aria-current="page">Anmelden</a>
+                    <a href="/pwa/anmelden/" onClick={()=> navigate("/pwa/anmelden/")} className="btn btn-primary active" aria-current="page">Anmelden</a>
                     <a href="/pwa/registrieren/" className="btn btn-primary">Jetzt Registrieren</a>
                 </div>
                 <form className=" gt-3 ">
