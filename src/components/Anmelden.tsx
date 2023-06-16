@@ -3,9 +3,10 @@ import { Fragment } from "react";
 import { useState } from 'react';
 import Navbar from "./Navbar";
 import Toggler from "./Toggler";
+import { Link } from "react-router-dom";
 function Anmelden() {
     const [togglerVisible, setTogglerVisibility] = useState(false);
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
 
     return (
@@ -14,7 +15,8 @@ function Anmelden() {
                 <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
-                    <a href="/pwa/anmelden" onClick={()=> navigate("/pwa/anmelden")} className="btn btn-primary active" aria-current="page">Anmelden</a>
+                <Link to="/pwa/anmelden" relative="path"></Link>
+                    {/* <a href="/pwa/anmelden" onClick={()=> navigate("/pwa/anmelden", {replace:true})} className="btn btn-primary active" aria-current="page">Anmelden</a> */}
                     <a href="/pwa/registrieren" className="btn btn-primary">Jetzt Registrieren</a>
                 </div>
                 <form className=" gt-3 ">
@@ -31,7 +33,7 @@ function Anmelden() {
                     <button type="submit" className="btn btn-primary">Anmelden</button>
                     
                 </form>
-                <a className="navbar-brand mt-5" href="./PasswordErsetzen">Password vergessen?</a>
+                <a className="navbar-brand mt-5" href="/pwa/PasswordErsetzen">Password vergessen?</a>
             </div>
         </Fragment>
     );
