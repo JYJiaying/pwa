@@ -1,5 +1,6 @@
 import { Routes, Route, HashRouter, useNavigate} from 'react-router-dom'
 import { Link } from "react-router-dom";
+import Anmelden from './Anmelden';
 
 interface TogglerProps{
     click:() => void;
@@ -20,7 +21,7 @@ function Toggler({click}:TogglerProps) {
                     </div>
 
                         <nav className="nav flex-column p-2 m-2">
-                        <Link to="/pwa/anmelden" relative="path"></Link>
+                        <Link to="/pwa/anmelden" relative="path" className="nav-link btn-primary"><Anmelden/></Link>
                             {/* <a className="nav-link btn-primary" href="/pwa/anmelden" onClick={()=> navigate("/pwa/anmelden", {replace:true})}>Anmelden</a> */}
                             <a className="nav-link btn-primary" href="/">Einstellungen</a>
                         </nav>
