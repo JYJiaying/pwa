@@ -12,7 +12,7 @@ function Toggler({ click }: TogglerProps) {
             <div className="container-fluid">
                 <div className="offcanvas-end" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header" onClick={click}>
-                        <Link to="/pwa" relative="path" className="nav-link btn-primary" onClick={() => { <App /> }}>mediMESH</Link>
+                        <Link to="/pwa" relative="path" className="nav-link" onClick={() => { <App /> }}>mediMESH</Link>
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
                     </div>
                     <nav className="nav flex-column p-2 m-2">

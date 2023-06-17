@@ -9,7 +9,7 @@ function Navbar({ click }: NavbarProps) {
     return (
         <Fragment>
             <nav className="navbar bg-body-tertiary fixed-top p-2 " tabIndex={0} >
-                <Link to="/pwa" relative="path" className="nav-link btn-primary" onClick={() => { <App /> }}>mediMESH</Link>
+                <Link to="/pwa" relative="path" className="nav-link" onClick={() => { <App /> }}>mediMESH</Link>
                 <button className="btn"
                     type="button"
                     onClick={click}>

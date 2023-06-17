@@ -8,9 +8,6 @@ import PasswordErsetzen from './PasswordErsetzen';
 
 function Anmelden() {
     const [togglerVisible, setTogglerVisibility] = useState(false);
-    const navigate = useNavigate();
-
-
     return (
         <Fragment>
             <div className="m-3 column-gap-3">
