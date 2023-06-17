@@ -6,6 +6,7 @@ import Toggler from "./components/Toggler";
 import Anmelden from './components/Anmelden';
 import Registrieren from './components/Registrieren';
 import Videosbereich from './components/Videosbereich';
+import PasswordErsetzen from './components/PasswordErsetzen';
 function App() {
   const [togglerVisible, setTogglerVisibility] = useState(false);
 
@@ -16,9 +17,10 @@ function App() {
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
           <Videosbereich /> </div>}/>
         <Route path="/pwa/anmelden" element={<Anmelden/>} />
-        {/* <Route path="/pwa/registrieren" element={<Registrieren/>} /> */}
+        <Route path="/pwa/registrieren" element={<Registrieren/>} />
+        <Route path="/pwa/password" element={<PasswordErsetzen/>} />
+        <Route path="/pwa/video" element={<Videosbereich/>} />
       </Routes>
-      
   );
 }
 export default App;  

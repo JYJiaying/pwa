@@ -11,7 +11,7 @@ function Videosbereich() {
                             <video controls className="card-img-top"></video>
                             <h5 className="card-title">Videosname 1</h5>
                             <p className="card-text">Videosbeschreibung</p>
-                            <Link to={`/pwa/video/`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
+                            <Link to={`/pwa/video`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ function Videosbereich() {
                             <video controls className="card-img-top"></video>
                             <h5 className="card-title">Videosname 2</h5>
                             <p className="card-text">Videosbeschreibung</p>
-                            <Link to={`/pwa/video/`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
+                            <Link to={`/pwa/video`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ function Videosbereich() {
                             <video controls className="card-img-top"></video>
                             <h5 className="card-title">Videosname 3</h5>
                             <p className="card-text">Videosbeschreibung</p>
-                            <Link to={`/pwa/video/`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
+                            <Link to={`/pwa/video`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function Videosbereich() {
                             <video controls className="card-img-top"></video>
                             <h5 className="card-title">Videosname 4</h5>
                             <p className="card-text">Videosbeschreibung</p>
-                            <Link to={`/pwa/video/`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
+                            <Link to={`/pwa/video`} className="btn btn-primary" onClick={() => { console.log("zum Videosbereich") }}>  Zum Videosbereich</Link>
                         </div>
                     </div>
                 </div>
