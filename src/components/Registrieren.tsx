@@ -10,7 +10,7 @@ function Registrieren() {
     return (
         <Fragment>
             <div className="m-3 column-gap-3">
-                <Navbar click={() => setTogglerVisibility(!togglerVisible)} />
+                <Navbar click={() => setTogglerVisibility(true)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
                     <Link to="/pwa/anmelden" relative="path" className="btn btn-primary" aria-current="page" onClick={() => { <Anmelden /> }}>Anmelden</Link>
