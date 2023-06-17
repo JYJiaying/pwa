@@ -1,5 +1,5 @@
 // npm i react-router-dom
-import { Routes, Route, HashRouter, Navigate} from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import { useState } from 'react';
 import Navbar from "./components/Navbar";
 import Toggler from "./components/Toggler";
@@ -16,7 +16,7 @@ function App() {
           {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
           <Videosbereich /> </div>}/>
         <Route path="/pwa/anmelden" element={<Anmelden/>} />
-        <Route path="/pwa/registrieren" element={<Registrieren/>} />
+        {/* <Route path="/pwa/registrieren" element={<Registrieren/>} /> */}
       </Routes>
       
   );

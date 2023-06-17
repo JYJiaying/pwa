@@ -1,18 +1,20 @@
 import { Fragment } from "react";
+import { Link } from 'react-router-dom'
+import App from '../App';
+
 interface NavbarProps {
     click: () => void;
 }
-function Navbar({click}: NavbarProps) {
+function Navbar({ click }: NavbarProps) {
     return (
         <Fragment>
-            
             <nav className="navbar bg-body-tertiary fixed-top p-2 " tabIndex={0} >
-                <a className="navbar-brand" href="/pwa">mediMESH</a>
+                <Link to="/pwa" relative="path" className="nav-link btn-primary" onClick={() => { <App /> }}>mediMESH</Link>
                 <button className="btn"
-                type="button"
-                onClick={click}>
+                    type="button"
+                    onClick={click}>
                     <span className="navbar-toggler-icon"></span>
-            </button>
+                </button>
             </nav>
         </Fragment>
     );
