@@ -9,7 +9,7 @@ function Registrieren() {
 
     return (
         <Fragment>
-            <div className="m-3 column-gap-3">
+            <div className="m-3 column-gap-3 z-n1 position-absolute p-5 rounded-3">
                 <Navbar click={() => setTogglerVisibility(true)} />
                 {togglerVisible && <Toggler click={() => setTogglerVisibility(false)} />}
                 <div className="btn-group p-5 mt-4 d-flex justify-content-center">
