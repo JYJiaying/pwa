@@ -6,53 +6,30 @@
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    }, 
+    {
+      "src": "android/android-launchericon-512-512.png",
+      "sizes": "512x512"
     },
     {
-      "src": "Logo72.png",
-      "type": "image/png",
-      "sizes": "72x72"
+      "src": "android/android-launchericon-192-192.png",
+      "sizes": "192x192"
     },
     {
-      "src": "Logo96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "Logo128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    },
-    {
-      "src": "Logo144.png",
-      "type": "image/png",
+      "src": "android/android-launchericon-144-144.png",
       "sizes": "144x144"
     },
     {
-      "src": "Logo152.png",
-      "type": "image/png",
-      "sizes": "152x152"
+      "src": "android/android-launchericon-96-96.png",
+      "sizes": "96x96"
     },
     {
-      "src": "Logo192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
+      "src": "android/android-launchericon-72-72.png",
+      "sizes": "72x72"
     },
     {
-      "src": "Logo192 copy.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any"
-    },
-    {
-      "src": "Logo384.png",
-      "type": "image/png",
-      "sizes": "384x384"
-    },
-    {
-      "src": "Logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "android/android-launchericon-48-48.png",
+      "sizes": "48x48"
     }
   ],
   "start_url": ".",
