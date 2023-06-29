@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import { useState } from 'react';
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { Link, useNavigate } from 'react-router-dom'
-import Toggler from "./Toggler";
+import Toggler from "../components/Toggler";
 import Anmelden from "./Anmelden";
 function Registrieren() {
     const [togglerVisible, setTogglerVisibility] = useState(false);

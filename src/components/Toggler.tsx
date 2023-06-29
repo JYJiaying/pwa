@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Anmelden from './Anmelden';
+import Anmelden from '../pages/Anmelden';
 import App from '../App';
 
 interface TogglerProps {

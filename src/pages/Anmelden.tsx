@@ -1,8 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { Fragment } from "react";
 import { useState } from 'react';
-import Navbar from "./Navbar";
-import Toggler from "./Toggler";
+import Navbar from "../components/Navbar";
+import Toggler from "../components/Toggler";
 import Registrieren from './Registrieren';
 import PasswordErsetzen from './PasswordErsetzen';
 
